@@ -25,4 +25,9 @@ func main() {
   fmt.Printf("myslice2 = %v\n", myslice4)
   fmt.Printf("length = %d\n", len(myslice4))
   fmt.Printf("capacity = %d\n", cap(myslice4))
+
+  prices := []int{10,20,30}
+  prices[2] = 50
+  fmt.Println(prices[0])
+  fmt.Println(prices[2])
 }
