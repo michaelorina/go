@@ -25,4 +25,12 @@ func main() {
 //   x < 5 &&  x < 10
 //   x < 5 || x < 4
 //   !(x < 5 && x < 10)
+
+  var x = 9
+  var y = 8
+
+  fmt.Printf("x = %b\n",x)
+  fmt.Printf("y = %b\n",y)
+    
+  fmt.Printf("x & y is %b\n",x & y)
 }
