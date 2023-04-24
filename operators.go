@@ -12,5 +12,5 @@ func main() {
   )
   fmt.Println(sum3)
 
-  
+  fmt.Print(10*5)
 }
