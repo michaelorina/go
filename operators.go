@@ -13,4 +13,8 @@ func main() {
   fmt.Println(sum3)
 
   fmt.Print(10*5)
+
+  var x = 10
+  x +=5
+  fmt.Println(x)
 }
